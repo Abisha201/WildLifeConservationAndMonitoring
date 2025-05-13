@@ -66,7 +66,7 @@ while True:
 
     cv2.imshow("Wildlife Monitoring", frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('x'):
         print("Stopping the monitor. Goodbye!")
         break
 
